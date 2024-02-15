@@ -1,0 +1,94 @@
+.advantages-carousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.advantages-carousel-container {
+    width: 96%;
+}
+
+.advantages-carousel-item-wrapper {
+    padding: 4%;
+    height: 225px;
+}
+
+.advantages-carousel-item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 6% 5%;
+    height: 100%;
+}
+
+.slick-list {
+    margin: 0 -10px !important;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: none !important;
+}
+
+.advantages-carousel-item-description {
+    margin-top: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1440px) {
+    .advantages-carousel {
+        margin-top: 6.9vw;
+    }
+}
+
+
+@media screen and (max-width: 1075px) {
+    .advantages-carousel-container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .advantages-carousel-item-description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .advantages-carousel-container {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .advantages-carousel-container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .advantages-carousel-container {
+        width: 85%;
+    }
+
+    .advantages-carousel-item-description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .advantages-carousel {
+        margin-top: 22px;
+    }
+}

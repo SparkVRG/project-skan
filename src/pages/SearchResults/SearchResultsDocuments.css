@@ -1,0 +1,221 @@
+.search-results-page-documents {
+    margin-top: 107px;
+}
+
+.search-results-page-documents-title {
+    font-family: 'Ferry';
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.search-results-page-documents-list {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    flex-wrap: wrap;
+    margin-top: 58px;
+    padding: 15px;
+}
+
+.search-results-page-documents-item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    flex: 1 1 50px;
+    padding: 19px 31px;
+    min-width: 540px;
+    max-width: 641px;
+    height: 694px;
+    overflow: hidden;
+}
+
+.search-results-page-documents-item-info,
+.search-results-page-documents-item-source,
+.search-results-page-documents-item-source-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #949494;
+}
+
+.search-results-page-documents-item-source {
+    margin-left: 14px;
+}
+
+.search-results-page-documents-item-source-link {
+    text-decoration: underline;
+}
+
+.search-results-page-documents-item-title {
+    margin-top: 24px;
+    width: 90%;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.search-results-page-documents-item-label {
+    border-radius: 5px;
+    background-color: #ffb64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    width: 157px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.search-results-page-documents-item-image {
+    border-radius: 10px;
+    background-position: center;
+    margin-top: 14px;
+    width: 100%;
+    height: 158px;
+}
+
+.search-results-page-documents-item-text {
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    white-space: pre-wrap;
+}
+
+.search-results-page-documents-item-go-to-source-button {
+    border-radius: 5px;
+    background-color: #7ce3e1;
+    position: absolute;
+    left: 31px;
+    bottom: 19px;
+    margin-top: 32px;
+    width: 223px;
+    height: 47px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.search-results-page-documents-item-go-to-source-button:hover {
+    text-decoration: underline;
+}
+
+.search-results-page-documents-item-go-to-source-button:disabled {
+    opacity: 0.5;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+.search-results-page-documents-item-words {
+    position: absolute;
+    right: 31px;
+    bottom: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #949494;
+}
+
+.search-results-page-show-more-button {
+    border-radius: 5px;
+    background-color: #5970ff;
+    display: block;
+    margin: 38px auto 0;
+    width: 305px;
+    height: 59px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.search-results-page-show-more-button:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+    .search-results-page-documents-item {
+        min-width: 271px;
+        height: auto;
+    }
+
+    .search-results-page-documents-item-info {
+        font-size: 14px;
+    }
+
+    .search-results-page-documents-item-title {
+        font-size: 19px;
+    }
+
+    .search-results-page-documents-item-label {
+        font-size: 9px;
+    }
+
+    .search-results-page-documents-item-text {
+        font-size: 12px;
+    }
+
+    .search-results-page-documents-item-words {
+        font-size: 12px;
+    }
+
+    .search-results-page-documents-item-go-to-source-button {
+        position: static;
+        margin-top: 16px;
+        width: 50%;
+        height: 7.4vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .search-results-page-documents-title {
+        font-size: 4.7vw;
+        line-height: 5.9vw;
+    }
+
+    .search-results-page-documents-list {
+        margin-top: 34px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .search-results-page-documents-item-info {
+        font-size: 9px;
+    }
+
+    .search-results-page-documents-item-title {
+        font-size: 14px;
+    }
+
+    .search-results-page-documents-item-text {
+        font-size: 9px;
+    }
+
+    .search-results-page-documents-item-words {
+        font-size: 9px;
+    }
+
+    .search-results-page-show-more-button {
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-results-page-documents-title {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .search-results-page-documents-item-go-to-source-button {
+        height: 24px;
+        font-size: 8px;
+    }
+}

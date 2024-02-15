@@ -1,0 +1,29 @@
+.header {
+    background-color: #ffffff;
+    position: relative;
+    display: grid;
+    margin: 0 auto;
+    padding: 0 60px;
+    min-width: 320px;
+    max-width: 1440px;
+    height: 93px;
+    z-index: 98;
+}
+
+@media screen and (max-width: 1440px) {
+    .header {
+        padding: 0 4.2%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .header {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        grid-template-columns: 1fr 1.5fr 1fr !important;
+    }
+}

@@ -1,0 +1,36 @@
+.authorization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 249px;
+    height: 26px;
+}
+
+.authorization-reg {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #929292;
+    cursor: pointer;
+}
+
+.authorization-line {
+    background-color: #029491;
+    width: 3px;
+    height: 100%;
+}
+
+.authorization-login {
+    border-radius: 5px;
+    background-color: #7ce3e1;
+    padding: 3px 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.authorization-reg:hover,
+.authorization-login:hover {
+    text-decoration: underline;
+}

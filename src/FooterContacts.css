@@ -1,0 +1,31 @@
+.footer-contacts,
+.footer-contacts-tel,
+.footer-contacts-email {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 17px;
+}
+
+.footer-contacts {
+    text-align: right;
+    line-height: 17px;
+}
+
+.footer-contacts-tel:hover,
+.footer-contacts-email:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 410px) {
+
+    .footer-contacts,
+    .footer-contacts-tel,
+    .footer-contacts-email {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}

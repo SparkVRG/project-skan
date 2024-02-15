@@ -1,0 +1,56 @@
+.advantages {
+    padding-top: 69px;
+}
+
+.advantages-title {
+    font-family: 'Ferry';
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.advantages-title-br {
+    display: none;
+}
+
+.advantages-image {
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    height: 575px;
+}
+
+@media screen and (max-width: 1440px) {
+    .advantages {
+        padding-top: 4.8vw;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .advantages-image {
+        background-size: 250%;
+        height: 101vw;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .advantages-title-br {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .advantages-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .advantages {
+        padding-top: 15px;
+    }
+
+    .advantages-image {
+        background-size: 250%;
+        margin-top: 70px;
+        height: 345px;
+    }
+}

@@ -1,0 +1,242 @@
+.rates {
+    padding-top: 107px;
+}
+
+.rates-title {
+    font-family: 'Ferry';
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.rates-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    padding: 70px 15px 15px 15px;
+}
+
+.rates-item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    flex: 1 1 50px;
+    min-width: 365px;
+    max-width: 415px;
+    width: 415px;
+    height: 540px;
+}
+
+.rates-item-top {
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    padding: 7%;
+    height: 24.4%;
+}
+
+.rates-item_beginner>.rates-item-top {
+    background-color: #ffb64f;
+}
+
+.rates-item_pro>.rates-item-top {
+    background-color: #7ce3e1;
+}
+
+.rates-item_business>.rates-item-top {
+    background-color: #000000;
+}
+
+.rates-item-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.rates-item-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rates-item-icon {
+    position: absolute;
+}
+
+.rates-item_business>.rates-item-top {
+    color: #ffffff;
+}
+
+.rates-item_beginner>.rates-item-top>.rates-item-icon {
+    top: 4%;
+    right: 2%;
+    width: 23%;
+}
+
+.rates-item_pro>.rates-item-top>.rates-item-icon {
+    top: -5%;
+    right: 2%;
+    width: 30%;
+}
+
+.rates-item_business>.rates-item-top>.rates-item-icon {
+    top: 15%;
+    right: 1%;
+    width: 21%
+}
+
+.rates-item-bottom {
+    position: relative;
+    padding: 7% 2% 7% 7%;
+    height: 75.6%;
+}
+
+.rates-item-badge-current {
+    border-radius: 10px;
+    background-color: #3ba5e0;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.rates-item-price {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.rates-item-old-price {
+    margin-left: 15px;
+    font-size: 25px;
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.rates-item-price-with-installments {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rates-item-possibilities-title {
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rates-item_business .rates-item-possibilities-title {
+    margin-top: 107px;
+}
+
+.rates-item-possibilities-list {
+    margin-top: 10px;
+}
+
+.rates-item-possibilities-item {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rates-item-possibilities-item-icon {
+    margin-right: 5px;
+}
+
+.rates-item-button {
+    border-radius: 5px;
+    background-color: #5970ff;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+    width: 85%;
+    height: 59px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.rates-item-button:hover {
+    text-decoration: underline;
+}
+
+.rates-item-button_for-current-rate {
+    background-color: #d2d2d2;
+    color: #000000;
+}
+
+@media screen and (max-width: 450px) {
+    .rates-item {
+        min-width: 250px;
+        height: 460px;
+    }
+
+    .rates-item-title {
+        font-size: 26px;
+    }
+
+    .rates-item-description {
+        font-size: 14px;
+    }
+
+    .rates-item-badge-current {
+        display: none;
+    }
+
+    .rates-item-price {
+        font-size: 26px;
+    }
+
+    .rates-item-old-price {
+        font-size: 21px;
+    }
+
+    .rates-item-price-with-installments {
+        font-size: 14px;
+    }
+
+    .rates-item-possibilities-title {
+        font-size: 16px;
+    }
+
+    .rates-item-possibilities-item {
+        font-size: 11px;
+    }
+
+    .rates-item-button {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rates-title {
+        font-size: 28px;
+    }
+
+    .rates-list {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .rates-item-button {
+        font-size: 14px;
+    }
+}

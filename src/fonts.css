@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Ferry';
+	src: url('./assets/Ferry-Black.eot');
+	src: local('Ferry Black'), local('Ferry-Black'),
+		url('./assets/Ferry-Black.eot?#iefix') format('embedded-opentype'),
+		url('./assets/Ferry-Black.woff') format('woff'),
+		url('./assets/Ferry-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}

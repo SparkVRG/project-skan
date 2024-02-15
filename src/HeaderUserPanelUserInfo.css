@@ -1,0 +1,54 @@
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    height: 40px;
+}
+
+.user-info-leftside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 100px;
+    height: 100%;
+}
+
+.user-info-name {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-info-logout {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.user-info-logout-button {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #929292;
+    cursor: pointer;
+}
+
+.user-info-logout-button:hover {
+    text-decoration: underline;
+}
+
+.user-info-rightside {
+    border-radius: 50%;
+    width: 40px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.user-info-avatar {
+    width: 100%;
+    height: 100%;
+}

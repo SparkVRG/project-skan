@@ -1,0 +1,288 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 49px;
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.companies-info-mobile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies-info-mobile-container {
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px 5px;
+    width: 31vw;
+    max-width: 133px;
+    height: 75px;
+}
+
+.companies-info-mobile-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2vw;
+    font-weight: 400;
+    color: #929292;
+}
+
+.companies-info-mobile-quantity {
+    margin-top: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.companies-info-mobile-quantity_limit {
+    color: #8ac540;
+}
+
+.companies-info-mobile-loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    animation: 1.5s linear 0s normal none infinite running rotate-companies-info;
+}
+
+.companies-info-mobile-loading-spinner-image {
+    width: 100%;
+}
+
+.stub {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-mobile-toggle {
+    position: relative;
+    width: 30px;
+    height: 25px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.nav-mobile-toggle-line {
+    background-color: #029491;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    transition: .2s ease all;
+}
+
+.nav-mobile-toggle-line_top {
+    top: 0;
+}
+
+.nav-mobile-toggle-line_middle {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.nav-mobile-toggle-line_bottom {
+    top: 100%;
+    transform: translate(0, -100%);
+}
+
+.nav-mobile-toggle_opened>.nav-mobile-toggle-line {
+    background-color: #ffffff;
+}
+
+.nav-mobile-toggle_opened>.nav-mobile-toggle-line_top {
+    top: 40%;
+    transform: rotate(45deg);
+}
+
+.nav-mobile-toggle_opened>.nav-mobile-toggle-line_middle {
+    display: none;
+}
+
+.nav-mobile-toggle_opened>.nav-mobile-toggle-line_bottom {
+    top: 40%;
+    transform: rotate(135deg);
+}
+
+.nav-mobile-screen {
+    background-color: #029491;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 130vw;
+    z-index: 99;
+    transition: all 0.2s linear;
+}
+
+.nav-mobile-list {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-mobile-item {
+    text-align: center;
+}
+
+.nav-mobile-item:nth-child(n+2) {
+    margin-top: 8vw;
+}
+
+.nav-mobile-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 5.6vw;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.nav-mobile-link:hover {
+    text-decoration: underline;
+}
+
+.authorization-mobile {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.authorization-mobile-reg {
+    font-family: 'Inter', sans-serif;
+    font-size: 5vw;
+    font-weight: 400;
+    color: #67bfbd;
+    cursor: pointer;
+}
+
+.authorization-mobile-reg:hover {
+    text-decoration: underline;
+}
+
+.authorization-mobile-login {
+    border-radius: 5px;
+    background-color: #7ce3e1;
+    margin-top: 5.8vw;
+    width: 92.5vw;
+    height: 16.5vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 6.3vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.authorization-mobile-login:hover {
+    text-decoration: underline;
+}
+
+.logout-mobile {
+    position: absolute;
+    top: 80.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logout-mobile-button {
+    border-radius: 5px;
+    background-color: #7ce3e1;
+    width: 92.5vw;
+    height: 16.5vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 6.3vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.logout-mobile-button:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+    }
+
+    .companies-info-mobile {
+        display: flex;
+    }
+
+    .stub {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .companies-info-mobile-description {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-mobile-screen {
+        width: 320px;
+        height: 416px;
+    }
+
+    .nav-mobile-item:nth-child(n+2) {
+        margin-top: 26px;
+    }
+
+    .nav-mobile-link {
+        font-size: 18px;
+    }
+
+    .companies-info-mobile-container {
+        width: 100px;
+    }
+
+    .companies-info-mobile-description {
+        font-size: 7px;
+    }
+
+    .authorization-mobile-reg {
+        font-size: 16px;
+    }
+
+    .authorization-mobile-login {
+        margin-top: 20px;
+        width: 295px;
+        height: 52px;
+        font-size: 20px;
+    }
+
+    .logout-mobile-button {
+        width: 295px;
+        height: 52px;
+        font-size: 20px;
+    }
+}

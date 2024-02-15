@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    align-items: center;
+    width: 31%;
+    min-width: 87px;
+    z-index: 100;
+}
+
+.logo-image {
+    width: 100%;
+    max-width: 123px;
+}

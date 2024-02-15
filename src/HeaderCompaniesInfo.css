@@ -1,0 +1,81 @@
+.companies-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies-info-container {
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 175px;
+    height: 63px;
+}
+
+.companies-info-leftside {
+    width: 75%;
+    height: 60%;
+}
+
+.companies-info-description {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50%;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #929292;
+}
+
+.companies-info-rightside {
+    width: 20%;
+    height: 60%;
+}
+
+.companies-info-quantity {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.companies-info-quantity_limit {
+    color: #8ac540;
+}
+
+.companies-info-loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    animation: 1.5s linear 0s normal none infinite running rotate-companies-info;
+}
+
+.companies-info-loading-spinner-image {
+    width: 100%;
+}
+
+@keyframes rotate-companies-info {
+    0% {
+        rotate: 0deg;
+        translate: -50% -50%;
+    }
+
+    100% {
+        rotate: 360deg;
+        translate: -50% -50%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .companies-info {
+        display: none !important;
+    }
+}

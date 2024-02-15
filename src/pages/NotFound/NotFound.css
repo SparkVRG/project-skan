@@ -1,0 +1,29 @@
+.not-found {
+    margin: 0 auto;
+    padding: 50px 60px 0 60px;
+    min-width: 320px;
+    max-width: 1440px;
+    height: 100vh;
+}
+
+.not-found-title {
+    font-family: 'Ferry';
+    font-size: 45px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1440px) {
+    .not-found {
+        padding: 50px 4.2% 0 4.2%;
+    }
+
+    .not-found-title {
+        font-size: 3.13vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .not-found-title {
+        font-size: 18px;
+    }
+}

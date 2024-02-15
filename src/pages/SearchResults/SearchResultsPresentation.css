@@ -1,0 +1,85 @@
+.search-results-page-presentation {
+    position: relative;
+    padding-top: 84px;
+    height: 414px;
+}
+
+.search-results-page-title {
+    width: 37%;
+    font-family: 'Ferry';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.search-results-page-description {
+    margin-top: 36px;
+    width: 30%;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.search-results-page-presentation-image {
+    position: absolute;
+    right: 46px;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1130px) {
+    .search-results-page-presentation-image {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .search-results-page-presentation {
+        height: auto;
+    }
+
+    .search-results-page-title {
+        width: 100%
+    }
+
+    .search-results-page-description {
+        width: 100%;
+    }
+
+    .search-results-page-presentation-image {
+        position: static;
+        margin-top: 21px;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .search-results-page-presentation {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .search-results-page-title {
+        font-size: 4.7vw;
+        line-height: 5.9vw;
+    }
+
+    .search-results-page-description {
+        margin-top: 21px;
+        font-size: 3.6vw;
+        line-height: 4.4vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-results-page-title {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .search-results-page-description {
+        font-size: 11px;
+        line-height: 14px;
+    }
+}

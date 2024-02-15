@@ -1,0 +1,248 @@
+.authorization-page {
+    position: relative;
+    display: flex;
+    gap: 80px;
+    margin: 0 auto;
+    padding: 84px 60px 20px;
+    min-width: 320px;
+    max-width: 1440px;
+}
+
+.authorization-page-title {
+    width: 56%;
+    font-family: 'Ferry';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.authorization-page-title-br {
+    display: none;
+}
+
+.authorization-page-form {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding: 25px;
+    min-width: 289px;
+    width: 429px;
+    height: 523px;
+}
+
+.authorization-page-form-sections-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.authorization-page-form-sections-button {
+    border-bottom: 2px solid #c7c7c7;
+    height: 35px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+.authorization-page-form-sections-button_login {
+    width: 40%;
+}
+
+.authorization-page-form-sections-button_register {
+    width: 55%;
+}
+
+.authorization-page-form-sections-button_active {
+    border-bottom: 2px solid #029491;
+    color: #029491;
+}
+
+.authorization-page-form-label {
+    display: inline-block;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #949494;
+}
+
+.authorization-page-form-input {
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 0 4%;
+    width: 100%;
+    height: 43px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.authorization-page-form-label_password {
+    margin-top: 20px;
+}
+
+.authorization-page-form-error {
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff5959;
+    text-align: center;
+}
+
+.authorization-page-form-button {
+    border-radius: 5px;
+    background-color: #5970ff;
+    margin-top: 34px;
+    width: 100%;
+    height: 59px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.authorization-page-form-button:hover {
+    text-decoration: underline;
+}
+
+.authorization-page-form-button:disabled {
+    opacity: 0.5;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+.authorization-page-form-restore-password-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.authorization-page-form-restore-password {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5970ff;
+    text-decoration: underline;
+}
+
+.authorization-page-form-image {
+    position: absolute;
+    top: -55px;
+    left: -55px;
+}
+
+.authorization-page-form-services {
+    margin-top: 30px;
+}
+
+.authorization-page-form-services-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #949494;
+}
+
+.authorization-page-form-services-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.authorization-page-form-services-button {
+    border: 1px solid #5970ff;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 31px;
+    cursor: pointer;
+}
+
+.authorization-page-image {
+    position: absolute;
+    bottom: 30px;
+    left: 170px;
+}
+
+@media screen and (max-width: 1440px) {
+    .authorization-page {
+        padding: 84px 4.2% 20px;
+    }
+
+    .authorization-page-title {
+        width: 51.2vw;
+        font-size: 2.77vw;
+        line-height: 3.4vw;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .authorization-page-image {
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .authorization-page {
+        display: block;
+        padding-top: 24px;
+    }
+
+    .authorization-page-title {
+        width: auto;
+        font-size: 5.9vw;
+        line-height: 6.67vw;
+    }
+
+    .authorization-page-title-br {
+        display: inline;
+    }
+
+    .authorization-page-form {
+        margin: 130px auto 0;
+        width: auto;
+        max-width: 429px;
+    }
+
+    .authorization-page-form-image {
+        position: absolute;
+        top: -80px;
+        left: 90px;
+    }
+
+    .authorization-page-image {
+        position: static;
+        display: block;
+        margin: 60px auto 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .authorization-page-form-error {
+        font-size: 12px;
+    }
+
+    .authorization-page-form-sections-button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .authorization-page-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .authorization-page-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

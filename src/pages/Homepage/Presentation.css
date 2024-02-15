@@ -1,0 +1,150 @@
+.presentation {
+    position: relative;
+    padding-top: 84px;
+    height: 680px;
+}
+
+.presentation-title {
+    font-family: 'Ferry';
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.presentation-description {
+    margin-top: 20px;
+    width: 540px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.presentation-request-data {
+    border-radius: 5px;
+    background-color: #5970ff;
+    display: block;
+    margin-top: 70px;
+    width: 335px;
+    height: 59px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.presentation-request-data:hover {
+    text-decoration: underline;
+}
+
+.presentation-image {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: -1;
+    width: 605px;
+}
+
+@media screen and (max-width: 1440px) {
+    .presentation {
+        padding-top: 5.8vw;
+        height: 47.2vw;
+    }
+
+    .presentation-title {
+        font-size: 4.16vw;
+        line-height: 5vw;
+    }
+
+    .presentation-description {
+        margin-top: 1.4vw;
+        width: 37.5vw;
+        font-size: 1.39vw;
+    }
+
+    .presentation-request-data {
+        margin-top: 4.9vw;
+        width: 23.3vw;
+        height: 4.1vw;
+        font-size: 1.53vw;
+    }
+
+    .presentation-image {
+        top: 4.8vw;
+        width: 42vw;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .presentation {
+        height: 189vw;
+    }
+
+    .presentation_without-button {
+        height: 157vw;
+    }
+
+    .presentation-title {
+        font-size: 7.6vw;
+        line-height: 9vw;
+    }
+
+    .presentation-description {
+        margin-top: 5.3vw;
+        width: 100%;
+        font-size: 5.3vw;
+    }
+
+    .presentation-request-data {
+        margin: 8.6vw auto 0 auto;
+        width: 98%;
+        height: 15.7vw;
+        font-size: 5.4vw;
+    }
+
+    .presentation-image {
+        top: 98vw;
+        width: 91.5vw;
+    }
+
+    .presentation-image_without-button {
+        top: 66vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .presentation {
+        height: 605px;
+    }
+
+    .presentation_without-button {
+        height: 504px;
+    }
+
+    .presentation-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .presentation-description {
+        margin-top: 17px;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .presentation-request-data {
+        margin: 28px auto 0 auto;
+        width: 98%;
+        height: 50px;
+        font-size: 17px;
+    }
+
+    .presentation-image {
+        top: 314px;
+        width: 292px;
+    }
+
+    .presentation-image_without-button {
+        top: 212px;
+    }
+}
