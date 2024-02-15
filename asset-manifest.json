@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.54747ede.css",
-    "main.js": "/static/js/main.d5781bcd.js",
+    "main.js": "/static/js/main.45b477ec.js",
     "static/media/presentation-image.png": "/static/media/presentation-image.ab1b9fd1484d2c90fe3c.png",
     "static/media/search-results-page-item-image.png": "/static/media/search-results-page-item-image.9c17b716e92e5bef3f53.png",
     "static/media/Ferry-Black.eot": "/static/media/Ferry-Black.49a7388dcb2ce51cda59.eot",
@@ -34,10 +34,10 @@
     "index.html": "/index.html",
     "static/media/search-page-select-arrow.svg": "/static/media/search-page-select-arrow.76881d548b982a41539ba47551f265c3.svg",
     "main.54747ede.css.map": "/static/css/main.54747ede.css.map",
-    "main.d5781bcd.js.map": "/static/js/main.d5781bcd.js.map"
+    "main.45b477ec.js.map": "/static/js/main.45b477ec.js.map"
   },
   "entrypoints": [
     "static/css/main.54747ede.css",
-    "static/js/main.d5781bcd.js"
+    "static/js/main.45b477ec.js"
   ]
 }
