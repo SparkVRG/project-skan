@@ -66,6 +66,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Navigate to='/project-skan' />} />
         <Route path='/project-skan' element={<Homepage isAuthorized={isAuthorized} userData={userData} />} />
+        {/* Перенаправление выше сделано для того, чтобы проект корректно работал на GitHub Pages.
+            Впрочем, с GitHub Pages всё равно не всё идеально. :)  */}
         <Route path='/authorization' element={isAuthorized ? <Navigate to='/' /> : <Authorization setUserData={setUserData} setIsAuthorized={setIsAuthorized} />} />
         <Route path='/search' element={isAuthorized ? <Search setSearchData={setSearchData} /> : <Navigate to='/' />} />
         <Route path='/search-results' element={isAuthorized && searchData !== '' ? <SearchResults searchData={searchData} accessToken={localStorage.getItem('accessToken')} /> : <Navigate to='/' />} />
