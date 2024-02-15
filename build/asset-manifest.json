@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-skan/static/css/main.17ab7059.css",
-    "main.js": "/project-skan/static/js/main.65e600d8.js",
+    "main.js": "/project-skan/static/js/main.58046574.js",
     "static/media/presentation-image.png": "/project-skan/static/media/presentation-image.ab1b9fd1484d2c90fe3c.png",
     "static/media/search-results-page-item-image.png": "/project-skan/static/media/search-results-page-item-image.9c17b716e92e5bef3f53.png",
     "static/media/Ferry-Black.eot": "/project-skan/static/media/Ferry-Black.49a7388dcb2ce51cda59.eot",
@@ -34,10 +34,10 @@
     "index.html": "/project-skan/index.html",
     "static/media/search-page-select-arrow.svg": "/project-skan/static/media/search-page-select-arrow.76881d548b982a41539ba47551f265c3.svg",
     "main.17ab7059.css.map": "/project-skan/static/css/main.17ab7059.css.map",
-    "main.65e600d8.js.map": "/project-skan/static/js/main.65e600d8.js.map"
+    "main.58046574.js.map": "/project-skan/static/js/main.58046574.js.map"
   },
   "entrypoints": [
     "static/css/main.17ab7059.css",
-    "static/js/main.65e600d8.js"
+    "static/js/main.58046574.js"
   ]
 }
