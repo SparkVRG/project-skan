@@ -57,7 +57,7 @@ function SearchResults({ searchData, accessToken }) {
             excludeDigests: !searchData.isDigest
         },
         similarMode: 'duplicates',
-        limit: searchData.documents,
+        limit: searchData.documents <= 100 ? searchData.documents : 100,
         sortType: 'sourceInfluence',
         sortDirectionType: 'desc',
         intervalType: 'month',
@@ -124,7 +124,7 @@ function SearchResults({ searchData, accessToken }) {
         <main className='search-results-page'>
             <SearchResultsPresentation />
             <SearchResultsSummary summaryData={summaryData} notFound={notFound} />
-            {!notFound && <SearchResultsDocuments formatDate={formatDate} sendData={sendData} accessToken={accessToken} />}
+            {summaryData.length > 0 && <SearchResultsDocuments formatDate={formatDate} sendData={sendData} accessToken={accessToken} />}
         </main>
     );
 }
