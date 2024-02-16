@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-skan/static/css/main.17ab7059.css",
-    "main.js": "/project-skan/static/js/main.acf5283a.js",
+    "main.css": "/project-skan/static/css/main.93a28fbb.css",
+    "main.js": "/project-skan/static/js/main.f4b0c37d.js",
     "static/media/presentation-image.png": "/project-skan/static/media/presentation-image.ab1b9fd1484d2c90fe3c.png",
     "static/media/search-results-page-item-image.png": "/project-skan/static/media/search-results-page-item-image.9c17b716e92e5bef3f53.png",
     "static/media/Ferry-Black.eot": "/project-skan/static/media/Ferry-Black.49a7388dcb2ce51cda59.eot",
@@ -33,11 +33,11 @@
     "static/media/advantages-carousel-arrow-left.svg": "/project-skan/static/media/advantages-carousel-arrow-left.5f78cc96a8ba6905c260719e7293d184.svg",
     "index.html": "/project-skan/index.html",
     "static/media/search-page-select-arrow.svg": "/project-skan/static/media/search-page-select-arrow.76881d548b982a41539ba47551f265c3.svg",
-    "main.17ab7059.css.map": "/project-skan/static/css/main.17ab7059.css.map",
-    "main.acf5283a.js.map": "/project-skan/static/js/main.acf5283a.js.map"
+    "main.93a28fbb.css.map": "/project-skan/static/css/main.93a28fbb.css.map",
+    "main.f4b0c37d.js.map": "/project-skan/static/js/main.f4b0c37d.js.map"
   },
   "entrypoints": [
-    "static/css/main.17ab7059.css",
-    "static/js/main.acf5283a.js"
+    "static/css/main.93a28fbb.css",
+    "static/js/main.f4b0c37d.js"
   ]
 }
